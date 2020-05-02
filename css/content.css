@@ -382,23 +382,24 @@ index
 	margin-left: 90px;
 }
 
-#facility{
-	margin-left: -35px;
-}
-
-#facility ul li{
-	display: inline-block;
-	padding-right: 15px;
-	padding-left: 15px;
-}
-
 #facility ul{
+	position: relative;
 	display: flex;
-	width: 58%;
+	width: 50%;
 	margin-top: 30px;
 	margin-right: auto;
 	margin-left: auto;
 }
+
+#facility ul li{
+	margin: 5px 20px;
+}
+
+#facility ul li :last-child{
+	float: left;
+	width: -50%;
+}
+
 
 .occupation img{
 	width: 260px;
@@ -409,7 +410,7 @@ index
 .occupation p{
 	text-align: center;
 	width: 100%;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-right: auto;
 	margin-left: auto;
 	font-size: 110%;
