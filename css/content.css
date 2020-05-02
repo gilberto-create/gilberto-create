@@ -382,27 +382,33 @@ index
 	margin-left: 90px;
 }
 
+#facility{
+	width: 100%;
+	display: inline-block;
+
+}
+
 #facility ul{
+	/*width: 50%;*/
+	display: inline-block;
 	position: relative;
-	display: flex;
-	width: 50%;
+	float: left;
 	margin-top: 30px;
 	margin-right: auto;
 	margin-left: auto;
+	left: 50%;
 }
 
 #facility ul li{
-	margin: 5px 20px;
-}
-
-#facility ul li :last-child{
+	width: 30%;
+	position: relative;
 	float: left;
-	width: -50%;
+	margin: 5px 20px;
+	left: -50%;
 }
 
 
 .occupation img{
-	width: 260px;
 	margin-right: auto;
 	margin-left: auto;
 }
