@@ -10,9 +10,13 @@ header {
 		padding-top: 5px;
 		padding-bottom: 5px;
 }
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
 
 .mey {
-	width: 250%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -202,15 +206,6 @@ nav ul li a{
 	border-bottom: solid 2px #81B21B;
 	padding-bottom: 18px;
 }
-#main_img {
-	background-image: url;
-	width: 1920px;
-	height: 1080px;
-}
-#main_img_txt {
-	margin-top: 320px;
-	margin-left: 100px;
-}
 /* ========================= */
 #main_description {
 	color: #ffffff;
@@ -232,7 +227,6 @@ nav ul li a{
 	text-align: center;
 	width: 100%;
 	padding-top: 100px;
-	padding-left: 284px;
 	color: #88B628;
 	font-size: 33px;
 }
@@ -479,7 +473,6 @@ nav ul li a{
 
 #footer {
  	background-color: #81B11B;
- 	width: 1920px;
  	height: 150px;
 	margin-top: 30px;
 	margin-bottom: 140px;
