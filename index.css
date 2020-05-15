@@ -154,7 +154,7 @@ nav ul li a{
 	vertical-align: middle;
 	margin-top: 5px;
 	margin-left: 24px;
-	padding-top: 7px;
+	padding-top: -7px;
 	color: #ffffff;
 	font-size: 15px;
 	font-weight: bold;
@@ -163,7 +163,7 @@ nav ul li a{
  	border-radius: 30px;
 }
 .enclosure {/* ˆÍ‚Ý */
-	position: relativef;
+	position: relative;
 	z-index: 30;
 	width: 360px;
 	height: 320px;
@@ -171,7 +171,23 @@ nav ul li a{
 	border: solid 2px #D9D9D9;	
 	border-radius: 5px;
 	background: rgba(255,255,255, 0.1);
+	text-align:center 
+	display: table-cell;
 }
+/* .enclosure p {
+  position: absolute;
+  top: 50%;
+  -webkit-transform : translateY(-50%);
+  transform : translateY(-50%);
+}
+*/	
+
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em
+}
+
 
 .d1 {
 	text-align: center;
@@ -211,7 +227,7 @@ nav ul li a{
 }
 
 #date_input {
-	margin-top: -10px;
+	margin-top: -5px;
 	padding: 4px;
 	font-weight: bold;
 }
@@ -243,8 +259,8 @@ nav ul li a{
 }
 
 #busy {
-	margin-top: 43px;
-	margin-left: 45px;
+	margin-top: 33px;
+	margin-left: 65px;
 }
 
 #gene {
@@ -308,10 +324,19 @@ nav ul li a{
 		color: #464D36;
 		font-size: 18px;
 		font-weight: bold;
+		/* margin-top: 45px; */
+		margin-left: 0px;
+		/* border: 1px solid #cccccc; */
+}
+#office2 {
+		color: #464D36;
+		font-size: 18px;
+		font-weight: bold;
 		margin-top: 45px;
 		margin-left: 0px;
 		/* border: 1px solid #cccccc; */
 }
+
 #apple a {
 		margin-left: 30px;
 }
@@ -412,12 +437,11 @@ nav ul li a{
     margin: 0 auto;
 }
 .demo2-1{
-    width: 640px;
+    width: 615px;
     float: left;
-    font-size: 18px;
 }
 .demo2-2{
-    width: 565px;
+    width: 615px;
     float: left;
 }
 
@@ -476,6 +500,27 @@ butto {
 	margin-left: ,0em;
 }
 
+.box01 {
+    width: 100px;
+    float: left;
+}
+.box02 {
+    width: 100px;
+    float: left;
+}
+.box03 {
+    width: 100px;
+    float: left;
+}
+
+.box001 {
+    width: 100px;
+    float: left;
+}
+.box002 {
+    width: 100px;
+    float: left;
+}
 
 
 #footer {
