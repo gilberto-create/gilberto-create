@@ -268,6 +268,37 @@ P.blocktext {
 	margin-top: 15px;
 	margin-left: 20px;
 }
+
+.brtop {
+	float: left;
+}
+
+.demo1 {
+    width: 1230px;
+    margin: 0 auto;
+}
+.demo1-1 {
+    width: 715px;
+    float: left;
+}
+.demo1-2 {
+    width: 305px;
+    float: left;
+}
+
+.boexample {
+		width: 1080px;
+}
+
+.example li{
+  float: left;
+  list-style: none;
+  margin-right: 10px;
+}
+
+
+
+
 .bridge {
 		clear: both;
 		width: 100%;
