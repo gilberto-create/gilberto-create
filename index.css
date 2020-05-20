@@ -453,7 +453,7 @@ clear:both;
 
 form{
 	margin: 0 auto;
-	width: 560px;
+	width: 595px;
 	padding: 1em;
 	border-radius: 1em;
 }
@@ -469,15 +469,13 @@ form li + li {
 }
 
 label {
-
-	display: inline-block;
-	width: 90px;
-	text-align: right;
+	width: auto;
+	text-align: left;
 }
 
 input, textarea {
 	font: 1em sans-serif;
-	width: 300px;
+	/* width: 300px; */
 	box-sizing: border-box;
 	border: 1px solid #999;
 }
@@ -492,13 +490,15 @@ textarea {
 	height: 5em;
 }
 
-.button {
-	padding-left: 20px;
+input#submit_button {
+	padding: 10px 40px;
+	font-size: 1.2em;
+	background-color: #81B11B;
+	color: #fff;
+	border-style: none;
+	width: 300px;
 }
 
-butto {
-	margin-left: ,0em;
-}
 
 .box01 {
     width: 100px;
@@ -522,12 +522,24 @@ butto {
     float: left;
 }
 
+.l_box{
+margin: 5px;
+padding: 0;
+width: 800px;
+list-style: none outside;
+}
+.l_box li{
+margin: 3px;
+padding: 0;
+float: left;
+width: 590px;
+}
 
 #footer {
  	background-color: #81B11B;
  	height: 150px;
 	margin-top: 30px;
-	margin-bottom: 140px;
+	margin-bottom: 10px;
 }
 
 #footer p {
@@ -536,4 +548,5 @@ butto {
 	font-size: 15px;
 	color: #ffffff;
 }
+
 

@@ -254,27 +254,36 @@
 			<div class="clear"> 　
 </div>
 <form action="/my-handling-form-page" method="post">
-	<ul>
-		<li>
-			<label for="name">お名前、</br>会社名:</label>
-			<input type="text" id="neme" name="user_neme"/>
-			<label for="username"><abbr title="required" aria-label="required">*</abbr></label>
-		</li>
-		<li>
-    		<label for="mail">E-mail:</label>
-    		<input type="email" id="mail" name="user_email" />
-    		<abbr title="required" aria-label="required">*</abbr>
-  		</li>
-  		<li>
-    		<label for="msg">Message:</label>
-    		<textarea id="msg" name="user_message"></textarea>
-  </li>
-		
-		<li class="button">
-  <button type="submit">メッセージを送信</button>
-</li>
-	</ul>
 
+  <ul class=”l_box”>
+<li><label for="name">お名前、会社名:</label> <abbr title="required" aria-label="required">*</abbr></br>
+<input type="text" id="neme" name="user_neme"/>
+</li>
+
+<li><label for="mail">電話番号:</label> <abbr title="required" aria-label="required">*</abbr></br>
+<input type="email" id="mail" name="user_email" />
+</li>
+
+<li><label for="mail">ふりがな:</label> <abbr title="required" aria-label="required">*</abbr></br>
+<input type="email" id="mail" name="user_email" />
+</li>
+<li><label for="mail">メールアドレス:</label> <abbr title="required" aria-label="required">*</abbr></br>
+<input type="email" id="mail" name="user_email" /></li>
+<li><label for="msg">備　　考:</label> <abbr title="required" aria-label="required">*</abbr></br>
+<textarea id="msg" name="user_message"></textarea>
+</li>
+
+<li><label for="mail">確認用メールアドレス:</label> <abbr title="required" aria-label="required">*</abbr></br>
+<input type="email" id="mail" name="user_email" />
+</li>
+
+<li><input id="submit_button" type="submit" name="submit" value="送信"></li>
+</button></li>
+
+  
+ 
+
+</ul>
 </form>
 
 			<div class="clear"> 　
